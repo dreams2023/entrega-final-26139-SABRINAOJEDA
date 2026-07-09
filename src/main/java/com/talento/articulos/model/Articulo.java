@@ -14,7 +14,7 @@ public class Articulo {
 
     private String nombre;
     private Double precio;
-    private String imagen;
+    
 
     public Articulo() {}
 
@@ -22,7 +22,7 @@ public class Articulo {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
-        this.imagen = imagen;
+       
     }
 
 
@@ -32,7 +32,7 @@ public class Articulo {
     public void setNombre(String nombre) { this.nombre = nombre; }
     public Double getPrecio() { return precio; }
     public void setPrecio(Double precio) { this.precio = precio; }
-    public String getImagen() { return imagen; }
-    public void setImagen(String imagen) { this.imagen = imagen;} 
+   
+    
 
 }
